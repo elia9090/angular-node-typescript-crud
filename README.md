@@ -1,4 +1,4 @@
-# angular-node-typescript-crud
+# Angular-Node-Typescript-crud
 A simple app demonstrating REST API CRUD operations with an angular front-end and node, express, mongodb backend written in TypeScript.
 
 # Requirements
