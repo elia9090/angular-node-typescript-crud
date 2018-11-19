@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { SigninModule } from './signin/signin.module';
+import { CallbackModule } from './callback/callback.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SigninModule } from './signin/signin.module';
     HttpClientModule,
     AppRoutingModule,
     DashboardModule,
-    SigninModule
+    SigninModule,
+    CallbackModule
   ],
   providers: [],
   bootstrap: [AppComponent]
