@@ -5,7 +5,12 @@ A simple app demonstrating REST API CRUD operations with an angular front-end an
 - NodeJS (v8.12.0 or higher)
 - Mongo DB (v4.0.4 or higher)
 
-# Getting started
+# Run the webapp using docker
+Run below command. This will build the required images and creates, starts, and attaches to containers for the services. Once the services are up, the app can be accessed at http://localhost:4200 .
+
+`docker-compose up --build`
+
+# Run on your local machine
 - Install nodejs
 - Install mongodb and run the database daemon as
 
